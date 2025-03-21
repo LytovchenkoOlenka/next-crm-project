@@ -1,7 +1,7 @@
 import React from 'react';
 
 export interface PageProps {
-    title?: string;
+    // title?: string;
 }
 
 export default function Page({}: PageProps) {
