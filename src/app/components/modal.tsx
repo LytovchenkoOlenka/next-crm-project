@@ -1,4 +1,4 @@
-'use client';
+// 'use client';
 
 import React, { Fragment } from 'react';
 import { Dialog, DialogPanel, Transition,TransitionChild } from '@headlessui/react';
