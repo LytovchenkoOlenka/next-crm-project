@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react';
-import Header from '@/app/components/header';
+// import Header from '@/app/components/header';
 import { useParams } from 'next/navigation';
 
 // export interface PageProps {
@@ -11,8 +11,8 @@ import { useParams } from 'next/navigation';
 export default function Page() {
     const params = useParams();
     return (
-        <>
-            <Header>Company ({params.id})</Header>
-        </>
+        <div className="py-6 px-10">
+            <p>{`Information about company (${params.id})`}</p>
+        </div>
     );
 }
